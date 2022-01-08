@@ -37,7 +37,6 @@ module.exports = {
         }),
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
     CLR_SESSION: process.env.CLR_SESSION === undefined ? false : convertToBool(process.env.CLR_SESSION),
-    SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     REMOVEBG: process.env.REMOVEBG_KEY === undefined ? "false" : process.env.REMOVEBG_KEY,
     WARN_COUNT: process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
